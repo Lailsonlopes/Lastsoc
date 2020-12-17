@@ -1,11 +1,19 @@
 import React from 'react';
-import {View, Text} from 'react-native'
+import {View, Text, Image} from 'react-native'
 import estilo from './estilo';
 
 const Tab2 = () => {
     return (
         <View style={estilo.container}>
-            <Text>Tab 2</Text>
+            <View >
+                <View><Text>Seguidores</Text></View>           
+                <Image 
+                    source={require('../../../assets/images/1.jpg')} 
+                    style={estilo.perfil}
+                    />
+                <View><Text>Publicações</Text></View>           
+
+        </View>
         </View>
     )
 }

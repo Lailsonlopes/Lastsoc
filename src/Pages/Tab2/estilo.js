@@ -6,7 +6,16 @@ const estilo = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#e9e9e9'
+        backgroundColor: 'white'
+    },
+
+    perfil: {
+        alignItems: 'center',
+        width: 70,
+        height: 70,
+        borderRadius: 25
+        
+
     }
 
 })
