@@ -18,13 +18,13 @@ const Tab2 = () => {
                             source={require('../../../assets/images/perfil.png')}
                             style={estilo.perfil}
                         />
-                        <Text style={estilo.texto}>Nome</Text>
-                        <Text style={estilo.texto}>Status</Text>
-                        <Text style={estilo.texto}>Biografia</Text>
+                        <Text style={estilo.texto}>Chico</Text>
+                        <Text style={estilo.texto}>Pra Negocio</Text>
+                        <Text style={estilo.texto}>4:20</Text>
                     </View>
                     <View>
                         <View style={estilo.circulo}>
-                            <Text style={estilo.texto}>500</Text>
+                            <Text style={estilo.texto}>09</Text>
                         </View>
                         <Text>Publicações</Text>
                     </View>

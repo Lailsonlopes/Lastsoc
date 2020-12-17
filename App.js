@@ -15,7 +15,7 @@ export default function App() {
   
     <NavigationContainer>
       <Navegacao.Navigator
-      initialRouteName="Inicio">
+      initialRouteName="Login">
         <Navegacao.Screen 
           name="Login" 
           component={Login} 
