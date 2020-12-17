@@ -1,20 +1,76 @@
 import React from 'react';
-import {View, Text, Image} from 'react-native'
+import {View, Text, Image, ScrollView} from 'react-native'
 import estilo from './estilo';
 
 const Tab2 = () => {
     return (
-        <View style={estilo.container}>
+        <ScrollView style={estilo.scroll}>
             <View >
-                <View><Text>Seguidores</Text></View>           
-                <Image 
-                    source={require('../../../assets/images/1.jpg')} 
-                    style={estilo.perfil}
+                <View style={estilo.cabecalho}>
+                    <View >
+                        <View style={estilo.circulo}>
+                            <Text style={estilo.texto}>500</Text>
+                        </View>
+                        <Text>Seguidores</Text>
+                    </View>
+                    <View>
+                        <Image
+                            source={require('../../../assets/images/perfil.png')}
+                            style={estilo.perfil}
+                        />
+                        <Text style={estilo.texto}>Nome</Text>
+                        <Text style={estilo.texto}>Status</Text>
+                        <Text style={estilo.texto}>Biografia</Text>
+                    </View>
+                    <View>
+                        <View style={estilo.circulo}>
+                            <Text style={estilo.texto}>500</Text>
+                        </View>
+                        <Text>Publicações</Text>
+                    </View>
+                </View>
+                <View style={estilo.cardImagem}>
+                    <Image
+                        source={require('../../../assets/images/1.jpg')}
+                        style={estilo.imagem}
                     />
-                <View><Text>Publicações</Text></View>           
+                    <Image
+                        source={require('../../../assets/images/2.jpg')}
+                        style={estilo.imagem}
+                    />
+                    <Image
+                        source={require('../../../assets/images/3.jpg')}
+                        style={estilo.imagem}
+                    />
+                    <Image
+                        source={require('../../../assets/images/4.jpg')}
+                        style={estilo.imagem}
+                    />
+                    <Image
+                        source={require('../../../assets/images/5.jpg')}
+                        style={estilo.imagem}
+                    />
+                    <Image
+                        source={require('../../../assets/images/6.jpg')}
+                        style={estilo.imagem}
+                    />
+                    <Image
+                        source={require('../../../assets/images/2.jpg')}
+                        style={estilo.imagem}
+                    />
+                    <Image
+                        source={require('../../../assets/images/4.jpg')}
+                        style={estilo.imagem}
+                    />
+                    <Image
+                        source={require('../../../assets/images/1.jpg')}
+                        style={estilo.imagem}
+                    />
+                </View>
 
-        </View>
-        </View>
+            </View>
+        </ScrollView>
+        
     )
 }
 
